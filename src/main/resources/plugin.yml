@@ -1,0 +1,15 @@
+name: SagaAuth
+version: '0.1'
+main: org.nepezi.SagaAuth
+api-version: '1.21'
+load: STARTUP
+authors: [Safal Bhurtel]
+description: The Minecraft Plugin For Cracked And Premium Accounts
+website: https://nepezimart.shop
+commands:
+  register:
+    description: Register a new user with a password
+    usage: /register <password>
+  login:
+    description: Login with an existing account
+    usage: /login <password>
